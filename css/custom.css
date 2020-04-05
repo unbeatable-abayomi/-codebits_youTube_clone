@@ -1,0 +1,171 @@
+body {
+    /* background-color:skyblue; */
+    background-color:  #f2f2f2;
+    overflow-x: hidden;
+}
+
+
+
+.youTube_logo_Humbger {
+	display: flex;
+}
+
+ul li {
+	list-style: none;
+}
+.video_table_alarm {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+/* .all_videos{
+    display: flex;
+    justify-content: space-evenly;
+} */
+.hambuger{
+    font-size: 20px;
+}
+.carditems_below{
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    padding: 0;
+    margin: 0;
+}
+
+.image_of_artist{
+    border-radius: 10%;
+}
+.card-title{
+    line-height: 10px;
+}
+.right-hand-bar-parent{
+    position: relative;
+}
+.right-hand-bar{
+    position: fixed;
+  margin-left: -1rem;
+  background-color: #fff;
+  height: 100vh;
+}
+#side_hand_bar_mobile{
+    position: fixed;
+    background-color: #fff;
+    height: 100vh;
+    width: 800px;
+  
+}
+.right-hand-bar-text-li-mobile{
+    padding: 5px;
+}
+#side_hand_bar_mobile{
+    display: none;
+ }
+ .right-hand-bar-text-ul-mobile{
+    width: 100%;
+ }
+ 
+ .main_card{
+     position: relative;
+ }
+
+ .card_body{
+     position: absolute;
+     bottom: 3.5px;
+     right: 12px;
+     color: #fff;
+     background-color: black;
+     width:2.3rem ;
+     border-radius: .2rem;
+     padding-left: 6px;
+     height: 20px;
+     font-size: 14px;
+ }
+ .subs_text{
+     font-size: 15px;
+     font-weight: 500;
+ }
+ .subs_text_img{
+     margin: 1.2px;
+ }
+h5{
+    padding: 0;
+    margin: 0;
+}
+.right_side_hr{
+    border: 1px solid rgb(226, 224, 224);
+}
+hr{
+
+    border: 2px solid rgb(226, 224, 224);
+}
+.left-hand-bar{
+    position: absolute;
+    left: 12rem;
+}
+.navbar{
+    background-color: #fff;
+    padding-bottom: 0;
+}
+
+.right-hand-bar-text{
+    font-weight:50px;
+    font-size: 14px;
+    margin-left:7rem;
+   
+}
+ul,li{
+    padding: 0;
+    margin: 0;
+}
+li:hover{
+    cursor: pointer;  
+}
+.right-hand-bar-text-li-mobile{
+    padding-left: 1.5rem;
+    margin-bottom: 10px;
+}
+.right-hand-bar-text-li-mobile:hover{
+    background-color: rgb(196, 193, 193);
+    cursor: pointer;
+}
+.right-hand-bar-text-li{
+    padding-left: 1.5rem;
+}
+.right-hand-bar-text-li:hover{
+    background-color: rgb(196, 193, 193);
+    cursor: pointer;
+}
+
+.navbar fixed-top{
+    background-color: white;
+}
+.right-hand-bar-text{
+    line-height: 40px;
+}
+#input_box{
+    width: 50%;
+}
+#inputGroup-sizing-sm{
+    background-color:rgb(231, 230, 230);
+    padding-left: 1.3rem; 
+    padding-right: 1.2rem; 
+}
+.left-hand-bar{
+    
+    background-color:  #f2f2f2;
+}
+
+@media only screen and (max-width:860px){
+    /* .right-hand-bar{
+        display: none;
+    } */
+    .right-hand-bar-text{
+        /* display: none; */
+        font-size: 10px;
+    }
+    #side_hand_bar_mobile{
+        display: block !important;
+    } 
+}
